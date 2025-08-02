@@ -1,0 +1,354 @@
+/* responsive */
+
+@media (max-width: 1450px) {
+  body {
+    grid-template-areas: "header header" "main main";
+  }
+
+  header .search_box_header,
+  .title_header {
+    display: none;
+  }
+  aside {
+    width: 0;
+  }
+
+  .burger_menu {
+    display: flex;
+  }
+  .main_upload {
+    height: 120vh !important;
+  }
+}
+
+@media (min-width: 1450px) {
+  .main_search-box {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  main {
+    height: 330vh;
+  }
+  .right_body_card_coin svg {
+    width: 90px;
+  }
+  .buttons_operation button {
+    font-size: 10px;
+  }
+  main {
+    padding: 20px;
+  }
+  .charts_card {
+    flex-wrap: wrap;
+  }
+  .card_chart_item {
+    width: 450px;
+    margin-top: 50px;
+    margin: 20px;
+  }
+  .graph_data {
+    justify-content: space-between;
+  }
+  .card_graph {
+    width: 450px;
+  }
+}
+@media (min-width: 1000px) {
+  .sidbar_chat_responsive.active_message {
+    width: 0%;
+    visibility: hidden;
+    position: absolute;
+    z-index: 2222;
+    height: 100vh;
+    overflow-y: auto;
+    margin-top: 5%;
+  }
+}
+@media (max-width: 1000px) {
+  .first_row_wallet {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .wallet_cards {
+    width: 100%;
+  }
+  .payment_method {
+    margin-bottom: 30px;
+  }
+  .wallet_invoices {
+    width: 100%;
+  }
+  .seconde_row_wallet {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .wallet_billing,
+  .wallet_transaction {
+    width: 100%;
+  }
+  .section_file_uploading {
+    width: 60%;
+    margin: 10px;
+  }
+  .mail-dropdown {
+    text-align: start !important;
+    width: 60% !important;
+    margin: 0px 0px !important;
+    padding: 20px 20px;
+  }
+  .list_sideBar {
+    visibility: visible;
+    margin: 0px 10px;
+  }
+  .message_chat_header {
+    border-top-left-radius: 5px;
+  }
+  .container_chat {
+    margin: 20px;
+  }
+  .message_chat {
+    width: 100%;
+    height: 100%;
+  }
+
+  .sidbar_chat {
+    width: 0%;
+  }
+  .main_search-box {
+    width: 70%;
+  }
+  aside.active {
+    width: 50%;
+  }
+  .container_main {
+    display: block;
+  }
+  #main_page {
+    height: 340vh !important;
+  }
+  .letf_content_main,
+  .right_content_main {
+    width: 100%;
+  }
+  main {
+    height: 400vh;
+  }
+
+  .graph_data {
+    justify-content: center;
+  }
+  .card_graph {
+    width: 80%;
+    margin-top: 10%;
+  }
+  .card_chart_item {
+    width: 80%;
+  }
+  .search_box_upload {
+    width: 40%;
+  }
+}
+
+@media (max-width: 700px) {
+  .wallet_cards_row {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .wallet_cards_bank {
+    width: 100%;
+  }
+  .wallet_card_balance {
+    width: 100%;
+  }
+  .wallet_card_balance_icon {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .section_file_uploading {
+    width: 70%;
+  }
+  .search_box_upload {
+    width: 60%;
+  }
+  aside.active {
+    width: 80%;
+  }
+  .group_send_message {
+    width: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  .payment_method_cards {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .payment_method_carditem {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .container_chat{
+    box-shadow: none;
+  }
+  .message_footer{
+    border-radius: 0px 0px 10px 10px !important;
+    -webkit-border-radius: 0px 0px 10px 10px !important;
+    -moz-border-radius: 0px 0px 10px 10px !important;
+    -ms-border-radius: 0px 0px 10px 10px !important;
+    -o-border-radius: 0px 0px 10px 10px !important;
+}
+  #main_page {
+    height: 370vh !important;
+  }
+  .message_receive div,
+  .message_sender div {
+    width: 70%;
+  }
+
+  .card_coin {
+    width: 80%;
+  }
+  .row_header_operation {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .operation_buy_bitcoin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .btn_operation_buy {
+    width: 60%;
+    padding: 5px;
+    margin-bottom: 20px;
+  }
+  .row_operation_buy {
+    width: 100%;
+  }
+  .operation_section {
+    padding: 5px;
+  }
+  .message_footer {
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+  }
+
+  .card_graph {
+    margin-top: 15%;
+  }
+  .card_chart_item {
+    width: 95%;
+  }
+  .table_content {
+    margin: 10% 0;
+  }
+}
+@media (max-width: 450px) {
+  .payment_method_header {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .payment_method_carditem {
+    margin: 0px;
+  }
+  .upload_darg {
+    margin: 10px;
+  }
+  .section_file_uploading {
+    width: 80%;
+  }
+  .search_box_upload {
+    width: 80%;
+  }
+  .group_send_message {
+    width: 70%;
+  }
+  .group_send_message input {
+    /* width: 90%; */
+    font-size: 13px;
+  }
+
+  .userName_header {
+    display: none;
+  }
+  .main_search-box {
+    width: 80%;
+  }
+  aside.active {
+    width: 90%;
+  }
+  .navgation-link {
+    width: 70%;
+  }
+  .row_chart_bitcoin h5 {
+    font-size: 20px;
+  }
+  .chart_bitcoin {
+    padding: 10px;
+  }
+  .filter_btc_page button {
+    font-size: 10px;
+    padding: 0px 5px;
+  }
+  main {
+    padding: 5px;
+    height: 390vh;
+  }
+  #main_page {
+    height: 350vh;
+  }
+  .header_letf_content_main div h6 {
+    font-size: 25px;
+  }
+  .section_portfolio {
+    padding: 5px 10px;
+    margin-right: 20px;
+  }
+}
+.message_user ul {
+  padding: 10px;
+}
+@media (max-width: 400px) {
+  .payment_method_id {
+    font-size: 10px;
+  }
+  #main_page {
+    height: 360vh;
+  }
+  .group_send_message input {
+    /* width: 90%; */
+    font-size: 10px;
+  }
+  .search_box_upload {
+    width: 90%;
+  }
+}
+@media (max-width: 300px) {
+  .search_box_upload {
+    width: 95%;
+  }
+
+  .section_file_uploading {
+    width: 92%;
+  }
+  .footer_card_graph {
+    padding-top: 0px;
+  }
+
+  .group_send_message input {
+    margin-right: 5px;
+  }
+}
