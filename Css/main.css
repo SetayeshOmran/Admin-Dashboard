@@ -214,10 +214,7 @@ body {
   background-color: var(--color-17153b9e) !important;
   color: var(--color-white) !important;
 }
-.tables_container, .letf_content_main ,.container_wallet{ 
-  
-  padding: 5%;
-}
+
 
 :root[data-theme="dark"] .table_products thead tr th,
 :root[data-theme="dark"] .table_media thead tr th {
